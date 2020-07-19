@@ -35,4 +35,4 @@ if (result<= 0 && gender === male){
     console.log("Kwame");
 }   else (result <= 6 && gender === female);{
     console.log("Ama");
-}
+}   alert(console.log);
