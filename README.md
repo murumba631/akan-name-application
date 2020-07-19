@@ -5,3 +5,5 @@
 ## Description
 
 A web application which uses the Ghanian method of naming newborns using the akan name, whereby you submit your birthday and gender and it generates your akan name.
+
+Link to published site : https://murumba631.github.io/akan-name-application/
