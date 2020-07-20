@@ -1,8 +1,8 @@
 function getName(){
 
-    var result = getDay(document.getElementById("bday").value);
-    var x=document.getElementById("male").checked;
-     var y=document.getElementById("female").checked;
+    let result = getDay(document.getElementById("bday").value);
+    let x = document.getElementById("male").checked;
+     let y = document.getElementById("female").checked;
         
         if (result == 0 && x === true){
             console.log("Kwasi");
@@ -35,4 +35,7 @@ function getName(){
         }   $("#output").text(console.log);
     };
     
-    
+    document.getElementById("submit").addEventListener("click",
+    function(event){
+        event.preventDefault()
+    });
